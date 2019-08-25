@@ -7,6 +7,8 @@
 
 然后在source forge网站下载并安装mingw64 https://sourceforge.net/projects/mingw-w64/files/latest/download 处理器架构x86
 
-安装完成后（默认在c根目录）将bin目录添加至系统环境变量（这样）
+安装完成后（默认在c根目录）将bin目录添加至系统环境变量（这样在编程时头文件的应用include就不会报错了）
 
 右键windows，打开power shell，输入gcc和g++，没有输入文件显示说明安装成功
+
+完成上述操作，进入vscode建立工作区文件夹，.vscode文件夹中需要三个文件配置，这里提供已经写好的文件供参考，也可在相应的github页面进行查询，
