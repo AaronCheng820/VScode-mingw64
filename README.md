@@ -12,3 +12,6 @@
 右键windows，打开power shell，输入gcc和g++，没有输入文件显示说明安装成功
 
 完成上述操作，进入vscode建立工作区文件夹，.vscode文件夹中需要三个文件配置（c_cpp_properties.json/launch.json/tasks.json），这里提供已经写好的文件供参考，也可在相应的github页面进行查询。这里需要说明的是，在c_cpp_properties.json/launch.json两个文件中的调试器的路径需要更改，即mingw64存放gdb.exe等的文件路径。
+
+GIT下载安装详细教程https://www.jianshu.com/p/a152f82c5e4a
+
